@@ -1,0 +1,22 @@
+{
+  "awsProfile": "AWS CREDENTIAL PROFILE",
+  "backendBucket": "PUT BUCKET HERE",
+  "lambdaRoleArn": "LAMBDA ROLE ARN",
+  "region": "us-east-1",
+  "development": {
+    "username": "postgres",
+    "password": null,
+    "database": "micromobile_development",
+    "host": "127.0.0.1",
+    "dialect": "postgres"
+  },
+  "production": {
+    "username": "postgres",
+    "password": null,
+    "database": "micromobile_production",
+    "host": "PROD DB IP",
+    "dialect": "postgres"
+  },
+  "experiments": {
+  }
+}
